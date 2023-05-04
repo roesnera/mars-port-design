@@ -1,0 +1,70 @@
+.hero {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: [start] 80% [median] auto [end];
+    padding: 1.5rem;
+}
+
+.hero::before, .hero::after {
+    content: "";
+    position: absolute;
+}
+
+.hero::before {
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 65%;
+    border-top: 2px solid var(--color-secondary);
+    border-left: 2px solid var(--color-secondary);
+}
+
+.hero::after {
+    bottom: 0;
+    right: 0;
+    width: 45%;
+    height: 70%;
+    border-right: 2px solid var(--color-secondary);
+    border-bottom: 2px solid var(--color-secondary);
+}
+
+.title-box {
+    color: white
+}
+
+.title-text {
+    font-weight: 200;
+    font-size: 4rem;
+}
+
+.subtitle {
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.blurb {
+    grid-column-start: start;
+    grid-column-end: end;
+}
+
+.dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    z-index: 10;
+}
+
+.dot-1 {
+    top: 0;
+    left: 0;
+    transform: translate(-40%, -40%);
+}
+
+.dot-2 {
+    bottom: 0;
+    right: 0;
+    transform: translate(40%, 40%);
+}

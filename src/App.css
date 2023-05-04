@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap');
+
+
+
+html {
+  --color-primary: #9254bc;
+  --color-secondary: #878382;
+  --color-background: #1e1a19;
+  --padding-lr: 3rem;
+}
+
+body {
+  padding: var(--padding-lr);
+  min-height: 100vh;
+  font-family: 'Raleway';
+  background: linear-gradient(to bottom, var(--color-primary), var(--color-background) 10%, var(--color-background) 90%, var(--color-primary));
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--color-secondary);
+}
