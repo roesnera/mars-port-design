@@ -6,11 +6,11 @@ html {
   --color-primary: #9254bc;
   --color-secondary: #878382;
   --color-background: #1e1a19;
-  --padding-lr: 3rem;
+  --padding-lr: 5rem;
 }
 
 body {
-  padding: var(--padding-lr);
+  padding: 3rem var(--padding-lr);
   min-height: 100vh;
   font-family: 'Raleway';
   background: linear-gradient(to bottom, var(--color-primary), var(--color-background) 10%, var(--color-background) 90%, var(--color-primary));

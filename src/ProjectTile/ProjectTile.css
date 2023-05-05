@@ -1,0 +1,5 @@
+.project-tile {
+    grid-column: median;
+    grid-row-start: 2;
+    grid-row-end: end;
+}

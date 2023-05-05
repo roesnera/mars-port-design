@@ -1,0 +1,42 @@
+.contact-section {
+    margin-top: 5rem;
+}
+
+.contact-header {
+    font-weight: 200;
+    font-size: 7rem;
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.contact-subheader {
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 2rem;
+    padding: .2rem 0;
+}
+
+.form-name {
+    display: block;
+}
+
+.form-email {
+
+}
+
+.form-message {
+    width: 100%;
+}
