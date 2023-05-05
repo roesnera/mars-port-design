@@ -46,6 +46,7 @@
 .blurb {
     grid-column-start: start;
     grid-column-end: end;
+    font-size: 2rem;
 }
 
 .dot {
