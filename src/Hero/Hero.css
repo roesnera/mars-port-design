@@ -3,7 +3,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: [start] 80% [median] auto [end];
-    padding: 1.5rem;
+    padding: 2rem;
 }
 
 .hero::before, .hero::after {
@@ -34,13 +34,15 @@
 }
 
 .title-text {
-    font-weight: 200;
-    font-size: 4rem;
+    font-weight: 100;
+    font-size: 7rem;
+    /* margin: 2rem 0; */
 }
 
 .subtitle {
-    font-size: 3rem;
-    font-weight: 200;
+    font-size: 5.3rem;
+    font-weight: 100;
+    margin: 1.3rem 0;
 }
 
 .blurb {
@@ -51,8 +53,8 @@
 
 .dot {
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
     background: var(--color-primary);
     z-index: 10;
@@ -61,11 +63,11 @@
 .dot-1 {
     top: 0;
     left: 0;
-    transform: translate(-40%, -40%);
+    transform: translate(-50%, -50%);
 }
 
 .dot-2 {
     bottom: 0;
     right: 0;
-    transform: translate(40%, 40%);
+    transform: translate(50%, 50%);
 }

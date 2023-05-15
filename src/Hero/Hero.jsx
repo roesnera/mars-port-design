@@ -4,7 +4,7 @@ import './Hero.css';
 export default function Hero() {
   return <div className='hero'>
     <div className="title-box">
-      <h1 className="title-text">Adam Roesner</h1>
+      <h1 className="title-text">Adam Roesner:</h1>
       <h2 className="subtitle">Full Stack Developer</h2>
     </div>
     <div className="svgs">
