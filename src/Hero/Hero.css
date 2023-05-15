@@ -6,12 +6,12 @@
     padding: 2rem;
 }
 
-.hero::before, .hero::after {
+.border {
     content: "";
     position: absolute;
 }
 
-.hero::before {
+.border__1 {
     top: 0;
     left: 0;
     width: 50%;
@@ -20,7 +20,7 @@
     border-left: 2px solid var(--color-secondary);
 }
 
-.hero::after {
+.border__2 {
     bottom: 0;
     right: 0;
     width: 45%;
