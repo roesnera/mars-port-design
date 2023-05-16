@@ -3,6 +3,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: [start] 80% [median] auto [end];
+    grid-template-rows: repeat(1fr);
     padding: 2rem;
 }
 
@@ -30,7 +31,9 @@
 }
 
 .title-box {
-    color: white
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .title-text {
@@ -43,6 +46,43 @@
     font-size: 5.3rem;
     font-weight: 100;
     margin: 1.3rem 0;
+}
+
+.links {
+    grid-column-start: median;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+    object-fit: contain;
+    position: relative;
+}
+
+.mail {
+    width: min(100%, 5rem);
+    object-fit: contain;
+    resize: both;
+}
+
+.mail-img {
+    background: url("../../iconmonstr-mail-thin-240\ \(1\).png");
+    aspect-ratio: 1;
+    width: 100%;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.linkedin {
+    width: min(100%, 5rem);
+    z-index: 10;
+}
+
+.linkedin-img {
+    cursor: pointer;
+    background: url("../../iconmonstr-linkedin-4-240.png");
+    aspect-ratio: 1;
+    width: min(100%, 5rem);
+    background-size: contain;
 }
 
 .blurb {
