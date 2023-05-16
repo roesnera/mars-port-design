@@ -8,3 +8,15 @@ html {
   font-size: 100%;
 }
 
+@media (width < 900px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (width < 600px) {
+  html {
+    font-size: 60%;
+  }
+}
+

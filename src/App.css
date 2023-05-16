@@ -9,6 +9,12 @@ html {
   --padding-lr: 5rem;
 }
 
+@media (width < 600px) {
+  html {
+    --padding-lr: 2rem
+  }
+}
+
 body {
   padding: 3rem var(--padding-lr);
   min-height: 100vh;

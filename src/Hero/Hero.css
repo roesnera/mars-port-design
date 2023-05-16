@@ -7,6 +7,12 @@
     padding: 2rem;
 }
 
+@media (width < 600px) {
+    .hero {
+        grid-template-columns:  [start] 70% [median] auto [end];
+    }
+}
+
 .hero::before, .hero::after {
     content: "";
     position: absolute;
@@ -58,6 +64,12 @@
     position: relative;
 }
 
+@media (width < 600px) {
+    .links {
+        align-items: center;
+    }
+}
+
 .mail {
     width: min(100%, 5rem);
     object-fit: contain;
@@ -83,6 +95,12 @@
     aspect-ratio: 1;
     width: min(100%, 5rem);
     background-size: contain;
+}
+
+@media (width < 600px) {
+    .linkedin-img, .linkedin, .mail {
+        width: min(100%, 9rem)
+    }
 }
 
 .blurb {
