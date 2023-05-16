@@ -77,7 +77,7 @@
 }
 
 .mail-img {
-    background: url("../../iconmonstr-mail-thin-240\ \(1\).png");
+    background: url("../assets/mail.png");
     aspect-ratio: 1;
     width: 100%;
     background-size: contain;
@@ -91,7 +91,7 @@
 
 .linkedin-img {
     cursor: pointer;
-    background: url("../../iconmonstr-linkedin-4-240.png");
+    background: url("../assets/linkedin.png");
     aspect-ratio: 1;
     width: min(100%, 5rem);
     background-size: contain;
