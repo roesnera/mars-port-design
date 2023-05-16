@@ -70,6 +70,26 @@
     }
 }
 
+@media (width < 500px) {
+    .title-box {
+        grid-column: start / end;
+        align-content: center;
+    }
+    .title-text {
+        font-size: 5rem;
+    }
+    .subtitle {
+        font-size: 4rem;
+    }
+    .links {
+        grid-row-start: 3;
+        grid-column: start / end;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 2rem 0;
+    }
+}
+
 .mail {
     width: min(100%, 5rem);
     object-fit: contain;
