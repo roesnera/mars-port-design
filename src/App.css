@@ -6,17 +6,19 @@ html {
   --color-primary: #9254bc;
   --color-secondary: #878382;
   --color-background: #1e1a19;
-  --padding-lr: 5rem;
+  --padding-lr: 9vw;
+  --padding-tb: 3rem;
 }
 
 @media (width < 600px) {
   html {
-    --padding-lr: 2rem
+    --padding-lr: 1.2rem;
+    --padding-tb: 1rem;
   }
 }
 
 body {
-  padding: 3rem var(--padding-lr);
+  padding: var(--padding-tb) var(--padding-lr);
   min-height: 100vh;
   font-family: 'Raleway';
   background: linear-gradient(to bottom, var(--color-primary), var(--color-background) 5%, var(--color-background) 95%, var(--color-primary));

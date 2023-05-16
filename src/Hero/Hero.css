@@ -70,7 +70,7 @@
     }
 }
 
-@media (width < 500px) {
+@media (width < 800px) {
     .title-box {
         grid-column: start / end;
         align-content: center;
