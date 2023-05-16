@@ -1,0 +1,23 @@
+footer {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+footer h3 {
+    font-weight: 300;
+}
+
+.footer-item {
+    margin: 1rem 0;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: var(--color-secondary);
+}

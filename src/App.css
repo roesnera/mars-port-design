@@ -13,8 +13,12 @@ body {
   padding: 3rem var(--padding-lr);
   min-height: 100vh;
   font-family: 'Raleway';
-  background: linear-gradient(to bottom, var(--color-primary), var(--color-background) 10%, var(--color-background) 90%, var(--color-primary));
+  background: linear-gradient(to bottom, var(--color-primary), var(--color-background) 5%, var(--color-background) 95%, var(--color-primary));
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--color-secondary);
+}
+
+input {
+  outline: none;
 }

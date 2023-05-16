@@ -19,24 +19,56 @@
 .contact-form {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .contact-form input {
     background-color: transparent;
     border: none;
     border-bottom: 2px solid white;
-    font-size: 2rem;
+    min-width: 20rem;
+    font: 1.3rem 'Raleway';
     padding: .2rem 0;
+    color: rgba(192, 185, 185, 0.755);
+}
+
+.contact-form input:focus {
+    background-color: transparent;
+    border-bottom: 2px solid white;
+}
+
+.form-item {
+    margin: 2rem 0;
 }
 
 .form-name {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .form-email {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .form-message {
+    display: flex;
+    flex-direction: column;
     width: 100%;
 }
+
+.form-button {
+    font-size: 1.8rem;
+    font-family: 'Raleway';
+    font-weight: 200;
+    text-transform: uppercase;
+    padding: 2rem 7rem;
+    margin-top: 3rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+    border: 2px solid var(--color-primary);
+    color: var(--color-secondary);
+    cursor: pointer;
+}
+

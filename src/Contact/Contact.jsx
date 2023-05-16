@@ -29,18 +29,18 @@ export default function Contact() {
   return <section className='contact-section'>
     <h2 className='contact-header'>Send me a message</h2>
     <h4 className="contact-subheader">Have a question or proposal or just want to connect? Contact me here.</h4>
-    <form className='contact-form' action='https://formsubmit.co/aaroesner@gmail.com' method='POST'>
-      <div className="form-name">
+    <form className='contact-form' action='mailto:aaroesner@gmail.com' method='POST' encType='application/x-www-form-urlencoded'>
+      <div className="form-item form-name">
         <label htmlFor="name">Your Name</label>
-        <input type="text" name="name" value={formName} onChange={nameChange}/>
+        <input type="text" name="name" value={formName} onChange={nameChange} placeholder='Enter your name'/>
       </div>
-      <div className="form-email">
+      <div className="form-item form-email">
         <label htmlFor="email">Email Address</label>
-        <input type="text" name="email" value={formEmail} onChange={emailChange}/>
+        <input type="text" name="email" value={formEmail} onChange={emailChange} placeholder='Enter your email address'/>
       </div>
-      <div className="form-message">
+      <div className="form-item form-message">
         <label htmlFor="text">Your Message</label>
-        <input type="text" name="text" value={formMessage} onChange={messageChange}/>
+        <input type="text" name="text" value={formMessage} onChange={messageChange} placeholder='Hi, I think we need to work on the front end of our website . . .'/>
       </div>
       <button type='submit' className='form-button'>Send it</button>
     </form>
