@@ -70,7 +70,7 @@
     }
 }
 
-@media (width < 800px) {
+@media (width < 900px) {
     .title-box {
         grid-column: start / end;
         align-content: center;
@@ -120,6 +120,15 @@
 @media (width < 600px) {
     .linkedin-img, .linkedin, .mail {
         width: min(100%, 9rem)
+    }
+}
+
+@media (900px < width < 1240px ) {
+    .hero {
+        grid-template-columns: [start] auto [median] 18% [end];
+    }
+    .links .mail, .links .linkedin, .linkedin-img{
+        width: 100%;
     }
 }
 
