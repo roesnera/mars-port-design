@@ -17,3 +17,7 @@
     color: white;
     grid-column: start / end;
 }
+
+.up-from-down[animation="1"] {-webkit-animation:slide-in-bottom 2s ease-in-out .1s both;animation:slide-in-bottom 2s ease-in-out .1s both}
+
+@-webkit-keyframes slide-in-bottom{0%{-webkit-transform:translateY(1000px);transform:translateY(1000px);opacity:0}90%{-webkit-transform:translateY(0);transform:translateY(0);opacity:.65}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}@keyframes slide-in-bottom{0%{-webkit-transform:translateY(1000px);transform:translateY(1000px);opacity:0}90%{-webkit-transform:translateY(0);transform:translateY(0);opacity:.65}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}

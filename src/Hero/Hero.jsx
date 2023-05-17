@@ -1,13 +1,20 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
 import './Hero.css';
 
-export default function Hero() {
+export default function Hero({ toggle }) {
+  const [animation, setAnimation] = useState(0);
+
+  useEffect(() => {
+    setAnimation(1);
+    console.log(animation);
+  })
   function scrollToMail() {
     document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
   }
 
 
-  return <div className='hero'>
+  // eslint-disable-next-line react/no-unknown-property
+  return <div className='hero puff-in-center' animation={animation}>
     <div className="title-box">
       <h1 className="title-text">Adam Roesner:</h1>
       <h2 className="subtitle">Full Stack Developer</h2>
