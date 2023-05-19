@@ -24,7 +24,7 @@ export default function Projects() {
   return <section className='projects-section up-from-down' animation={animation}>
     <h2 className='projects-heading'>Projects</h2>
     {clicked ? <ProjectTile title={selected}/> : null}
-    <div className="projects-col tabs">
+    <div className="tabs">
       <div className="tab">
         <input type="radio" name="rd" id="rd4" />
         <label htmlFor="rd4" className='tab-close'>&times;</label>

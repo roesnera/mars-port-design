@@ -10,6 +10,7 @@
     display: grid;
     grid-template-columns: [start] 60% [median] auto [end];
     grid-template-rows: 3.3rem auto;
+    overflow: visible;
 }
 
 .projects-heading, .project {
@@ -32,15 +33,16 @@ input[type="radio"] {
 
 .tabs {
     border-radius: 8px;
-    overflow: hidden;
+    /* overflow: hidden; */
     grid-row: start;
+    grid-column: start/ end;
     /* box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5); */
   }
   
   .tab {
     width: 100%;
     color: white;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   .tab-label {
     display: flex;
@@ -53,7 +55,7 @@ input[type="radio"] {
     /* Icon */
   }
   .tab-label:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
   .tab-label::after {
     content: "❯";
@@ -81,7 +83,7 @@ input[type="radio"] {
     transition-duration: .2s;
   }
   .tab-close:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     background: transparent;
   }
   
