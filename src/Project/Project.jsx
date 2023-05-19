@@ -3,16 +3,18 @@ import './Project.css';
 
 export default function Project({title, makeSelection}) {
 
-  useEffect(() => {
-    document.getElementById(title).addEventListener('click', handleClick); 
-  })
+  // useEffect(() => {
+  //   document.getElementById(title).addEventListener('click', handleClick); 
+  // })
 
-  function handleClick() {
-    makeSelection(title);
-  }
+  // function handleClick() {
+  //   makeSelection(title);
+  // }
 
-  return <div className='project'>
-    <div className='arrow'></div>
-    <div className='project-text'>XXXXXXXX <span id={title}>{title}</span></div>
-  </div>;
+  return <div className="tab">
+      <input type="radio" name="rd" id={title} />
+      <label htmlFor={title} className="tab-label">{title}</label>
+      <div className="tab-content"></div>
+  </div>
+  
 }
