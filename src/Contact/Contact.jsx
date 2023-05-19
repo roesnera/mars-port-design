@@ -40,7 +40,7 @@ export default function Contact() {
       </div>
       <div className="form-item form-message">
         <label htmlFor="body">Your Message</label>
-        <input type="text" name="body" value={formMessage} onChange={messageChange} placeholder='Hi, I think we need to work on the front end of our website . . .'/>
+        <input type="text" name="text" value={formMessage} onChange={messageChange} placeholder='Hi, I think we need to work on the front end of our website . . .'/>
       </div>
       <button type='submit' className='form-button'>Send it</button>
     </form>
