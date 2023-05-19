@@ -14,7 +14,7 @@ export default function Project({title, makeSelection}) {
   return <div className="tab">
       <input type="radio" name="rd" id={title} />
       <label htmlFor={title} className="tab-label">{title}</label>
-      <div className="tab-content"></div>
+      <div className="tab-content">some stuff</div>
   </div>
   
 }
