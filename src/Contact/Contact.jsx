@@ -29,7 +29,7 @@ export default function Contact() {
   return <section className='contact-section' id="contact">
     <h2 className='contact-header'>Send me a message</h2>
     <h4 className="contact-subheader">Have a question or proposal or just want to connect? Contact me here.</h4>
-    <form className='contact-form' action={"https://mailto:aaroesner@gmail.com?body="+formMessage} method='POST' encType='application/x-www-form-urlencoded'>
+    <form className='contact-form' action={"mailto:aaroesner@gmail.com?body="+formMessage} method='POST' encType='application/x-www-form-urlencoded'>
       <div className="form-item form-name">
         <label htmlFor="name">Your Name</label>
         <input type="text" name="name" value={formName} onChange={nameChange} placeholder='Enter your name'/>
