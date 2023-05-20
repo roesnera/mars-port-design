@@ -69,7 +69,8 @@ input[type="radio"] {
     padding: 0 1em;
     color: #2c3e50;
     background: transparent;
-    transition: all 0.5s;
+    /* transform: scaleY(0) translateY(-100%); */
+    transition: all 1s;
   }
   
 .tab-close {
@@ -99,6 +100,7 @@ input.label-input:checked + .tab-label {
   input.label-input:checked ~ .tab-content {
     max-height: 100vh;
     opacity: 1;
+    transform: scaleY(1) translateY(0);
     padding: 1em;
   }
 

@@ -10,6 +10,9 @@
     position: relative;
     isolation: isolate;
 }
+/* .project-tile-container {
+    overflow: hidden;
+} */
 
 .project-tile::before {
     content: "";
