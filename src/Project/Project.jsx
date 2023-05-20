@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import './Project.css';
+import ProjectTile from '../ProjectTile';
 
 export default function Project({title, makeSelection}) {
 
@@ -16,7 +17,7 @@ export default function Project({title, makeSelection}) {
         <label htmlFor="rd4" className='tab-close'></label>
       <input type="radio" name="rd" id={title} className='label-input' />
       <label htmlFor={title} className="tab-label">{title}</label>
-      <div className="tab-content">some stuff</div>
+      <ProjectTile title={title}/>
   </div>
   
 }

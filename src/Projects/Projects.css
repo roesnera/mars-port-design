@@ -48,7 +48,7 @@ input[type="radio"] {
     background: transparent;
     /* font-weight: bold; */
     cursor: pointer;
-    transition-duration: .2s;
+    transition-duration: .5s;
     position: relative;
     z-index: 2;
     /* Icon */
@@ -61,7 +61,7 @@ input[type="radio"] {
     width: 1em;
     height: 1em;
     text-align: center;
-    transition: all 0.35s;
+    transition: all 0.5s;
   }
   .tab-content {
     max-height: 0;
@@ -69,7 +69,7 @@ input[type="radio"] {
     padding: 0 1em;
     color: #2c3e50;
     background: transparent;
-    transition: all 0.35s;
+    transition: all 0.5s;
   }
   
 .tab-close {
@@ -79,7 +79,7 @@ input[type="radio"] {
     width: 100%;
     background: transparent;
     cursor: pointer;
-    transition-duration: .2s;
+    transition-duration: .5s;
     position: absolute;
     top:0;
     /* z-index: -1; */
