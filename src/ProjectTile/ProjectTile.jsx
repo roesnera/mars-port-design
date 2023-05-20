@@ -1,4 +1,3 @@
-import React from 'react';
 import './ProjectTile.css';
 
 export default function ProjectTile({ title }) {

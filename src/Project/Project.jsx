@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import './Project.css';
 import ProjectTile from '../ProjectTile';
 
