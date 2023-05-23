@@ -37,7 +37,10 @@
 
 .project-tile--tech {
     display: flex;
-    justify-content: space-evenly;
+}
+
+.project-tile--tech > * {
+    flex-basis: auto;
 }
 
 .project-tile--tech__icons {
