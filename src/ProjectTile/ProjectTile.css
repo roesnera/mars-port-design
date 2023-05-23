@@ -38,15 +38,18 @@
 
 .project-tile--tech {
     display: flex;
-    justify-content: space-evenly;
-    color: var(--color-secondary)
+    justify-content: space-between;
+    flex-direction: column;
+    color: var(--color-secondary);
+    --tech-font-size: 1.2em;
+    padding: 0 .7rem;
 }
 
 
-@media (width > 1600px) {
+@media (width > 1700px) {
     .project-tile {
         display: grid;
-        grid-template-columns: [start] max(1000px, 60%) [median] auto [end];
+        grid-template-columns: [start] max(800px, 60%) [median] auto [end];
     }
     .project-tile--tech {
         display: grid;
@@ -60,8 +63,13 @@
     flex-direction: row;
     flex-wrap: wrap;
     /* position: relative; */
-    --tech-font-size: 2em;
     align-items: center;
+}
+
+@media (width < 1700px) {
+    .project-tile--tech__icons {
+        justify-content: end;
+    }
 }
 
 .project-tile--tech__icons::before {
@@ -72,5 +80,5 @@
 }
 
 .project-tile--tech__description {
-    font-size: 1.5em;
+    font-size: var(--tech-font-size);
 }

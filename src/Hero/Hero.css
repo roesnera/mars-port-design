@@ -132,6 +132,21 @@
     }
 }
 
+@media (width >= 1240px) {
+    .hero {
+        grid-template-columns: [start] auto [median] minmax(30%, 10rem) [end];
+    }
+    .links {
+        align-items: center;
+    }
+    .mail, .linkedin {
+        width: min(8rem, 100%);
+    }
+    .linkedin-img {
+        width: 100%;
+    }
+}
+
 .blurb {
     grid-column-start: start;
     grid-column-end: end;
