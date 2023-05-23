@@ -1,7 +1,7 @@
 import './Project.css';
 import ProjectTile from '../ProjectTile';
 
-export default function Project({title, makeSelection}) {
+export default function Project({title}) {
 
   // useEffect(() => {
   //   document.getElementById(title).addEventListener('click', handleClick); 
@@ -20,3 +20,5 @@ export default function Project({title, makeSelection}) {
   </div>
   
 }
+
+
