@@ -17,6 +17,13 @@ html {
   }
 }
 
+@media (width > 1500px){
+  html {
+    --padding-lr: 13vw;
+    --padding-tb: 5rem;
+  }
+}
+
 body {
   padding: var(--padding-tb) var(--padding-lr);
   min-height: 100vh;

@@ -14,6 +14,7 @@
     overflow: hidden;
 } */
 
+
 .project-tile::before {
     content: "";
     position: absolute;
@@ -24,7 +25,7 @@
     /* border-radius: 7px; */
 }
 
-.project-tile--img[title="mars"] {
+.project-tile--img[name="mars"] {
     background: url("../../mars-large.jpg");
     background-size: cover;
     aspect-ratio: 16/12;
@@ -38,6 +39,18 @@
 .project-tile--tech {
     display: flex;
     justify-content: space-evenly;
+}
+
+
+@media (width > 1600px) {
+    .project-tile {
+        display: grid;
+        grid-template-columns: [start] max(1000px, 60%) [median] auto [end];
+    }
+    .project-tile--tech {
+        display: grid;
+        grid-template-rows: [start] auto [median] 12rem [end];
+    }
 }
 
 .project-tile--tech__icons {

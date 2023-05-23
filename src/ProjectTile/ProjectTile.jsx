@@ -64,7 +64,7 @@ export default function ProjectTile({ title }) {
 
   return (
     <div className='project-tile tab-content'>
-      <div className='project-tile--img' title={title}>
+      <div className='project-tile--img' name={title}>
         {/* {details.title} */}
       </div>
       <div className='project-tile--tech'>

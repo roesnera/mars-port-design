@@ -42,7 +42,7 @@ export default function Contact() {
         <label htmlFor="body">Your Message</label>
         <input type="text" name="text" value={formMessage} onChange={messageChange} placeholder='Hi, I think we need to work on the front end of our website . . .'/>
       </div>
-      <a href={"mailto:aaroesner@gmail.com?body="+formMessage} className='form-button'>Send it</a>
+      <a href={"mailto:aaroesner@gmail.com?body="+formMessage} className='form-button'>Email me!</a>
     </div>
   </section>;
 }

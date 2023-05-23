@@ -1,19 +1,24 @@
+/* 
+  TODO: add breakpoint for width > 1600px to change the project picture to be side-by-side with the description/icons
+  change description/icons to use flex-direction: column @ 1600px +
+*/
+
 .projects-section {
   padding: 1rem;
-    margin-top: 4rem;
-    font-size: 2.4rem;
-    background-color: #1e1a19;
-    opacity: 0.8;
-    background-image:  linear-gradient(#2d2b2a 2.5px, transparent 2.5px), linear-gradient(to right, #3f3b3a 2.5px, #1e1a19 2.5px);
-    background-size: 44px 44px;
-    background-position: 20px 20px;
-    padding-bottom: 4rem;
-    overflow: visible;
+  margin-top: 4rem;
+  font-size: 2.4rem;
+  background-color: #1e1a19;
+  opacity: 0.8;
+  background-image:  linear-gradient(#2d2b2a 2.5px, transparent 2.5px), linear-gradient(to right, #3f3b3a 2.5px, #1e1a19 2.5px);
+  background-size: 44px 44px;
+  background-position: 20px 20px;
+  padding-bottom: 4rem;
+  overflow: visible;
 }
 
 .projects-heading, .project {
-    font-weight: 200;
-    color: white;
+  color: white;
+  font-weight: 200;
 }
 
 .up-from-down[animation="1"] {-webkit-animation:slide-in-bottom 2s ease-in-out .1s both;animation:slide-in-bottom 2s ease-in-out .1s both}
@@ -66,6 +71,7 @@ input[type="radio"] {
   }
   .tab-content {
     max-height: 0;
+    /* display: none; */
     opacity: 0;
     padding: 0 1em;
     color: #2c3e50;
@@ -101,6 +107,7 @@ input.label-input:checked + .tab-label {
   input.label-input:checked ~ .tab-content {
     max-height: 100vh;
     opacity: 1;
+    /* display: block; */
     transform: scaleY(1) translateY(0);
     padding: 1em;
   }
