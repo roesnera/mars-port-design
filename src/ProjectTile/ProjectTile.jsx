@@ -20,7 +20,7 @@ export default function ProjectTile({ title }) {
 
   const details = title==="mars" ? {
     title,
-    desription: "A promotional site for a social media influencer built based on a design spec.",
+    desription: "A promotional site for a social media influencer built in collaboration with the influencer themself. This project was exciting to me as I was asked to display their tiktok videos as though they were being shown on a phone screen. I spent a couple of hours tinkering with regular CSS in order to get the look of the phone just right.",
     tools: [
       "React",
       "Vite",
@@ -30,7 +30,7 @@ export default function ProjectTile({ title }) {
     ]
   }: title==="Tech Fiends Forever" ? {
     title,
-    desription: "A blog site built with some of my colleagues front-to-back",
+    desription: "A blog site built with some of my colleagues front-to-back. Initially we chose to build it using Vite and React, but due to some concerns about routing and performance we decided to migrate the project to NextJS and see what all the hype was about.",
     tools: [
       "React",
       "NextJS",
