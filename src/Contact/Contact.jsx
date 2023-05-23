@@ -1,10 +1,11 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './Contact.css';
 
 export default function Contact() {
   const [formName, setFormName] = useState("");
   const [formEmail, setFormEmail] = useState("");
   const [formMessage, setFormMessage] = useState("");
+  const [animation, setAnimation] = useState(0);
 
   const nameChange = (e) => {
     e.preventDefault();
@@ -24,9 +25,12 @@ export default function Contact() {
     setFormMessage(newMessage);
   }
 
+  useEffect(()=> {
+    setAnimation(1);
+  }, [])
 
-
-  return <section className='contact-section' id="contact">
+  // eslint-disable-next-line react/no-unknown-property
+  return <section className='contact-section up-from-down' id="contact" animation={animation}>
     <h2 className='contact-header'>Send me a message</h2>
     <h4 className="contact-subheader">Have a question or proposal or just want to connect? Contact me here.</h4>
     <div className='contact-form'>

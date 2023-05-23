@@ -1,5 +1,4 @@
 import './ProjectTile.css';
-import icons from '../assets/Icons';
 import TechIcon from '../TechIcon';
 
 export default function ProjectTile({ title }) {

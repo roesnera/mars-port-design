@@ -25,6 +25,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--color-secondary);
+  overflow-x: hidden;
 }
 
 input {
