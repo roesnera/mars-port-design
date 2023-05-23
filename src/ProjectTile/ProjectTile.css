@@ -34,3 +34,16 @@
 .project-tile--img {
     margin: .5rem 0;
 }
+
+.project-tile--tech {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-tile--tech__icons {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+

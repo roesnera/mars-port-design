@@ -1,0 +1,38 @@
+.react-icon {
+    background: url("../assets/logo-react-512.png");
+}
+
+.nextjs-icon {
+    background: url("../assets/nextjs-icon.png");
+}
+
+.html5-icon {
+    background: url("../assets/icons8-html5-96.png");
+}
+
+.css3-icon {
+    background: url("../assets/icons8-css3-96.png");
+}
+
+.javascript-icon {
+    background: url("../assets/icons8-javascript-96.png");
+}
+
+.supabase-icon {
+    background: url("../assets/supabase-logo-icon.png");
+}
+
+.docker-icon {
+    background: url("../assets/icons8-docker-96.png");
+}
+
+.vite-icon {
+    background: url("../assets/vite-js-512-logo.png");
+}
+
+.tech-icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 5rem;
+    aspect-ratio: 1;
+}
