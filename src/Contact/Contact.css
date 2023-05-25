@@ -71,5 +71,6 @@
     border: 2px solid var(--color-primary);
     color: var(--color-secondary);
     cursor: pointer;
+    text-align: center;
 }
 

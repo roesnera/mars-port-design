@@ -1,0 +1,30 @@
+.loading{
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    color: black;
+    border: 1px solid black;
+    background: linear-gradient(to right bottom, var(--color-secondary), var(--color-background));
+}
+
+.loading-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+}
+
+.loading[animation="1"]{
+    animation: moveOnOut 2s ease-in-out 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveOnOut {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-100%);
+    }
+}
