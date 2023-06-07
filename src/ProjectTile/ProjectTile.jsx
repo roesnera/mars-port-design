@@ -26,6 +26,7 @@ export default function ProjectTile({ title }) {
       "HTML5",
       "CSS3",
       "JavaScript",
+      "Docker"
     ]
   }: title==="Tech Fiends Forever" ? {
     title,
