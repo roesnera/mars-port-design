@@ -10,13 +10,13 @@ function App() {
 
 
   return (
-    <>
+    <div className='no-overflow-y'>
       {/* <Loading/> */}
       <Hero />
       <Projects />
       <Contact />
       <Footer />
-    </>
+    </div>
   )
 }
 
