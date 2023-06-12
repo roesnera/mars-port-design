@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import './Projects.css';
 import Project from '../Project';
-import ProjectTile from '../ProjectTile';
 
 export default function Projects() {
   const [animation, setAnimation] = useState(0);
@@ -13,7 +12,7 @@ export default function Projects() {
 
 
   // eslint-disable-next-line react/no-unknown-property
-  return <section className='projects-section up-from-down' animation={animation}>
+  return <section className='projects-section in-from-left' animation={animation}>
     <h2 className='projects-heading'>Projects</h2>
     <div className="tabs">
       <Project title="mars"/>

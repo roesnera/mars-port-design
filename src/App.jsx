@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 import './App.css';
 import Contact from "./Contact";
 import Hero from "./Hero";
@@ -10,7 +10,8 @@ function App() {
 
 
   return (
-    <div className='no-overflow-y'>
+    <div>
+      <div className="no-overflow-y"></div>
       {/* <Loading/> */}
       <Hero />
       <Projects />
