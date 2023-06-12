@@ -32,6 +32,23 @@
     max-height: 60vh;
 }
 
+.project-tile--img[name="InDev"] {
+    background: url("../../inDev.png");
+    background-size: contain;
+    background-position: center;
+    aspect-ratio: 16/12;
+    max-height: 60vh;
+}
+
+.project-tile--img[name="Adam's api"] {
+    background: url("../../adamsapi.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    aspect-ratio: 16/12;
+    max-height: 60vh;
+}
+
 .project-tile--img {
     margin: .5rem 0;
 }
@@ -53,7 +70,7 @@
     }
     .project-tile--tech {
         display: grid;
-        grid-template-rows: [start] auto [median] 12rem [end];
+        grid-template-rows: [start] auto [link-top] 1.6em [median] 12rem [end];
     }
 }
 
@@ -81,4 +98,20 @@
 
 .project-tile--tech__description {
     font-size: var(--tech-font-size);
+}
+
+.project-tile--tech__link {
+    /* height: 10px; */
+    position: relative;
+    z-index: 101;
+}
+
+.project-tile--tech__link a {
+    text-decoration: none;
+    color: rgb(64, 64, 248);
+}
+
+.project-tile--tech__no-link {
+    margin-top: 5px;
+    color: red;
 }

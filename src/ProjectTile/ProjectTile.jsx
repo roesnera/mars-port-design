@@ -27,8 +27,9 @@ export default function ProjectTile({ title }) {
       "CSS3",
       "JavaScript",
       "Docker"
-    ]
-  }: title==="Tech Fiends Forever" ? {
+    ],
+    link: "https://mariahthemystic.org/"
+  }: title==="InDev" ? {
     title,
     desription: "A blog site built with some of my colleagues front-to-back. Initially we chose to build it using Vite and React, but due to some concerns about routing and performance we decided to migrate the project to NextJS and see what all the hype was about.",
     tools: [
@@ -45,7 +46,8 @@ export default function ProjectTile({ title }) {
     tools: [
       "Docker",
       // todo: create Java and Spring icons
-    ]
+    ],
+    link: "https://adamsapi.xyz/api/v1/metrics/peek"
   }
 
   // let iconStr = "";
@@ -64,6 +66,7 @@ export default function ProjectTile({ title }) {
       </div>
       <div className='project-tile--tech'>
         <div className="project-tile--tech__description">{details.desription}</div>
+        {details.link? <div className="project-tile--tech__link"><a href={details.link}>Click here to visit</a></div>: <div className='project-tile--tech__no-link'>To be deployed soon . . .</div>}
         <div className="project-tile--tech__icons">{details.tools.map((e, i) => {
           return <TechIcon name={e.toLowerCase()} key={i}/>
         })}</div>
