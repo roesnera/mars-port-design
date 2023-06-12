@@ -30,9 +30,18 @@
     background: url("../assets/vite-js-512-logo.png");
 }
 
+.java-icon {
+    background: url("../assets/Java_logo_PNG10.png");
+}
+
+.spring-icon {
+    background: url("../assets/icons8-spring-boot-480.png");
+}
+
 .tech-icon {
     background-size: contain;
     background-repeat: no-repeat;
     width: 5rem;
     aspect-ratio: 1;
+    z-index: 1000;
 }

@@ -3,5 +3,5 @@ import './TechIcon.css';
 
 export default function TechIcon({name}) {
   console.log(name);
-  return <div className={`tech-icon ${name}-icon`}></div>;
+  return <div title={name} className={`tech-icon ${name}-icon`}></div>;
 }

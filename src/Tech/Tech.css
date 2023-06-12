@@ -1,0 +1,27 @@
+.tech-subsection {
+    --spacing: 3rem;
+    margin-top: var(--spacing);
+    font-size: 2rem;
+    grid-column: start / end;
+    position: relative;
+}
+
+.tech-subsection::before {
+    content: "";
+    position: absolute;
+    top: calc(-1 * var(--spacing) / 2);
+    left: 0;
+    right: 0;
+    border-top: 3px dashed var(--color-secondary);
+}
+
+.tools {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tools .tech-icon {
+    margin: 0 .4rem;
+}

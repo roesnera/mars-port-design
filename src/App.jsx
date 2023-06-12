@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import Projects from "./Projects";
 import Footer from "./Footer";
 import Loading from "./Loading";
+import Tech from './Tech';
 
 function App() {
 
