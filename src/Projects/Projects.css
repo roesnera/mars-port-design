@@ -94,9 +94,9 @@ input[type="radio"] {
     color: #2c3e50;
     background: transparent;
     /* transform: scaleY(0) translateY(-100%); */
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
+    -webkit-transition: all 1s 1s;
+    -o-transition: all 1s 1s;
+    transition: all 1s 1s;
   }
   
 .tab-close {
@@ -140,6 +140,16 @@ input.label-input:checked + .tab-label {
             transform: scaleY(1) translateY(0);
     padding: 1em;
   }
+
+  input.label-input:checked ~ .project-tile, input.label-input:checked ~ .project-tile .project-tile--img, input.label-input:checked ~ .project-tile .project-tile--tech, input.label-input:checked ~ .project-tile .project-tile--tech .project-tile--tech__description, input.label-input:checked ~ .project-tile .project-tile--tech .project-tile--tech__icons, input.label-input:checked ~ .project-tile .project-tile--tech .project-tile--tech__link, input.label-input:checked ~ .project-tile .project-tile--tech .project-tile--tech__description {
+    opacity: 1;
+    max-height: 100vh;
+    /* display: block; */
+    /* -webkit-transform: scaleY(1);
+        -ms-transform: scaleY(1);
+            transform: scaleY(1); */
+  }
+
 
   /* input.label-input:checked ~ label.tab-close {
     z-index: 100;
