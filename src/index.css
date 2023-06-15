@@ -39,3 +39,9 @@ html {
     font-size: 50%;
   }
 }
+
+@media screen and (max-device-width < 500px) and (hover: none){
+  html {
+    font-size: 40%;
+  }
+}
