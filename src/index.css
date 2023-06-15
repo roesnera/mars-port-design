@@ -22,6 +22,12 @@ html {
   }
 }
 
+@media screen and (hover: none) and (max-device-width < 800px) {
+  html {
+    font-size: 65%;
+  }
+}
+
 @media (width < 600px) {
   html {
     font-size: 60%;
