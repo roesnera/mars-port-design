@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 versions
+*/
+
 .tech-subsection {
     --spacing: 3rem;
     margin-top: var(--spacing);
@@ -17,12 +24,15 @@
 
 .tools {
     margin-top: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 .tools .tech-icon {
     margin: 0 .4rem;
 }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlRlY2guY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksZUFBZTtJQUNmLDBCQUEwQjtJQUMxQixlQUFlO0lBQ2Ysd0JBQXdCO0lBQ3hCLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJLFdBQVc7SUFDWCxrQkFBa0I7SUFDbEIsa0NBQWtDO0lBQ2xDLE9BQU87SUFDUCxRQUFRO0lBQ1IsNkNBQTZDO0FBQ2pEOztBQUVBO0lBQ0ksZ0JBQWdCO0lBQ2hCLGFBQWE7SUFDYiw2QkFBNkI7SUFDN0IsZUFBZTtBQUNuQjs7QUFFQTtJQUNJLGVBQWU7QUFDbkIiLCJmaWxlIjoiVGVjaC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudGVjaC1zdWJzZWN0aW9uIHtcclxuICAgIC0tc3BhY2luZzogM3JlbTtcclxuICAgIG1hcmdpbi10b3A6IHZhcigtLXNwYWNpbmcpO1xyXG4gICAgZm9udC1zaXplOiAycmVtO1xyXG4gICAgZ3JpZC1jb2x1bW46IHN0YXJ0IC8gZW5kO1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG59XHJcblxyXG4udGVjaC1zdWJzZWN0aW9uOjpiZWZvcmUge1xyXG4gICAgY29udGVudDogXCJcIjtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHRvcDogY2FsYygtMSAqIHZhcigtLXNwYWNpbmcpIC8gMik7XHJcbiAgICBsZWZ0OiAwO1xyXG4gICAgcmlnaHQ6IDA7XHJcbiAgICBib3JkZXItdG9wOiAzcHggZGFzaGVkIHZhcigtLWNvbG9yLXNlY29uZGFyeSk7XHJcbn1cclxuXHJcbi50b29scyB7XHJcbiAgICBtYXJnaW4tdG9wOiAxcmVtO1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYXJvdW5kO1xyXG4gICAgZmxleC13cmFwOiB3cmFwO1xyXG59XHJcblxyXG4udG9vbHMgLnRlY2gtaWNvbiB7XHJcbiAgICBtYXJnaW46IDAgLjRyZW07XHJcbn0iXX0= */

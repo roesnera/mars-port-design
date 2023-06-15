@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import './Contact.css';
 
 export default function Contact() {
-  const [formName, setFormName] = useState("");
-  const [formEmail, setFormEmail] = useState("");
+  // const [formName, setFormName] = useState("");
+  // const [formEmail, setFormEmail] = useState("");
   const [formMessage, setFormMessage] = useState("");
   const [animation, setAnimation] = useState(0);
 
@@ -12,17 +12,17 @@ export default function Contact() {
     console.log("projects animation set");
   }, [])
 
-  const nameChange = (e) => {
-    e.preventDefault();
-    const newName = e.target.value;
-    setFormName(newName);
-  }
+  // const nameChange = (e) => {
+  //   e.preventDefault();
+  //   const newName = e.target.value;
+  //   setFormName(newName);
+  // }
 
-  const emailChange = (e) => {
-    e.preventDefault();
-    const newEmail = e.target.value;
-    setFormEmail(newEmail);
-  }
+  // const emailChange = (e) => {
+  //   e.preventDefault();
+  //   const newEmail = e.target.value;
+  //   setFormEmail(newEmail);
+  // }
 
   const messageChange = (e) => {
     e.preventDefault();
