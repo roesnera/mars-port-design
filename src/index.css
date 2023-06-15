@@ -22,11 +22,11 @@ html {
   }
 }
 
-@media screen and (hover: none) and (max-device-width < 900px), screen and (min-resolution: 2dppx) and (max-device-width < 900px) {
+/* @media screen and (hover: none) and (max-device-width < 900px), screen and (min-resolution: 2dppx) and (max-device-width < 900px) {
   html {
     font-size: 65%;
   }
-}
+} */
 
 @media (width < 600px) {
   html {
@@ -40,7 +40,11 @@ html {
   }
 }
 
-@media screen and (max-device-width < 500px) and (hover: none){
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width < 500px) and (hover: none),
+  only screen and (   min--moz-device-pixel-ratio: 2) and (max-device-width < 500px) and (hover: none),
+  only screen and (     -o-min-device-pixel-ratio: 2/1) and (max-device-width < 500px) and (hover: none),
+  only screen and (        min-device-pixel-ratio: 2) and (max-device-width < 500px) and (hover: none){
   html {
     font-size: 40%;
   }
