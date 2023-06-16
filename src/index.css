@@ -40,12 +40,54 @@ html {
   }
 }
 
-@media
-  only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width < 500px) and (hover: none),
-  only screen and (   min--moz-device-pixel-ratio: 2) and (max-device-width < 500px) and (hover: none),
-  only screen and (     -o-min-device-pixel-ratio: 2/1) and (max-device-width < 500px) and (hover: none),
-  only screen and (        min-device-pixel-ratio: 2) and (max-device-width < 500px) and (hover: none){
-  html {
-    font-size: 40%;
-  }
-}
+@media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) {
+      html {
+        font-size: 50%;
+      }
+    }
+
+    @media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) {
+      html {
+        font-size: 50%;
+      }
+    }
+
+    @media only screen 
+    and (device-width: 428px) 
+    and (device-height: 926px) 
+    and (-webkit-device-pixel-ratio: 3) {
+      html {
+        font-size: 50%;
+      } }
+
+      @media only screen 
+      and (device-width: 414px) 
+      and (device-height: 896px) 
+      and (-webkit-device-pixel-ratio: 2) { 
+        html {
+          font-size: 50%;
+        }
+      }
+      @media only screen 
+      and (device-width: 375px) 
+      and (device-height: 812px) 
+      and (-webkit-device-pixel-ratio: 3) { 
+        html {
+          font-size: 50%;
+        }
+      }
+
+      @media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+      html {
+        font-size: 50%;
+      }
+    }
