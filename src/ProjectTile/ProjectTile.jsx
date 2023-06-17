@@ -19,7 +19,7 @@ export default function ProjectTile({ title }) {
 
   const details = title==="mars" ? {
     title,
-    desription: "A promotional site for a social media influencer built in collaboration with the influencer themself. This project was exciting to me as it offered the opportunity to solve a lot of different problems: they wanted the phones to be clickable and to display screenshots of their actual video content (solved using css); they also wanted their metrics to updated automatically. To solve the latter problem, I created a database and an authenticated api that the site fetches data from, and which I can scrape and upate data to automatically.",
+    desription: "A promotional site for a social media influencer built in collaboration with the influencer themself. This project was exciting to me as it offered the opportunity to solve a lot of different problems: they wanted the phones to be clickable and to display screenshots of their actual video content (solved using css); they also wanted their metrics to update automatically. To solve the latter problem, I created a database and an authenticated api that the site fetches data from, and which I can scrape and upate data to automatically.",
     tools: [
       "React",
       "Vite",
