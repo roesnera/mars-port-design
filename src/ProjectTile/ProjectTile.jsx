@@ -40,6 +40,15 @@ export default function ProjectTile({ title }) {
       "JavaScript",
       "Supabase",
     ]
+  }: title==="Livability Initiative" ? {
+    title,
+    description: "",
+    tools: [
+      "HTML5",
+      "CSS3",
+      "Wordpress",
+      "PHP"
+    ]
   }: {
     title,
     desription: "I built this API for a frontend site that needed data to be updated automatically, and after shopping around at different options I realized that including the webscraper in the frontend was just too heavy and not resource efficient. I decided to build the api so that I could separate out my front and backend concerns, and I expect to use this individual api for more databases in the future. At the moment, the frontend is not pretty but I expect to add something there soon.",

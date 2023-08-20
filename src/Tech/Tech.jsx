@@ -13,6 +13,8 @@ export default function Tech() {
     "Nextjs",
     "Docker",
     "Supabase",
+    "Wordpress",
+    "PHP"
   ]
 
   return <div className='tech-subsection'>What do I do?

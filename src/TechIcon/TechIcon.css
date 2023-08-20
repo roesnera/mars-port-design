@@ -9,6 +9,14 @@
     background: url("../assets/logo-react-512.png");
 }
 
+.php-icon {
+    background: url("../assets/icons8-php-100.png");
+}
+
+.wordpress-icon {
+    background: url("../assets/icons8-wordpress-96.png");
+}
+
 .nextjs-icon {
     background: url("../assets/nextjs-icon.png");
 }

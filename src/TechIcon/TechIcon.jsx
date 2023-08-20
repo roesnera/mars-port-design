@@ -1,4 +1,3 @@
-import React from 'react';
 import './TechIcon.css';
 
 export default function TechIcon({name}) {
