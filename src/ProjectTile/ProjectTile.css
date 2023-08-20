@@ -46,6 +46,15 @@
     max-height: 60vh;
 }
 
+.project-tile--img[name="Livability Initiative"] {
+    background: url("../../TLI.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    aspect-ratio: 16/10;
+    max-height: 60vh;
+}
+
 .project-tile--img[name="InDev"] {
     background: url("../../inDev.png");
     background-size: contain;

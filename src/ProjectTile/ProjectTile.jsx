@@ -42,13 +42,14 @@ export default function ProjectTile({ title }) {
     ]
   }: title==="Livability Initiative" ? {
     title,
-    description: "",
+    desription: "I took this project over from a contract agency when I joined a local nonprofit as their sole web developer (and IT admin). I received some theme files database records from them, but there was still a lot to do before the site was ready to launch. I integrated the donation page with our CRM platform, automated email receipts and created a database of donor information, and reconstructed/reorganized about half of the site from what we got. My major challenge here was that I hadn't worked with Wordpress professionally and I needed to learn it while also deciphering what the previous team had done without being able to really ask them any questions. Thankfully, I have years of experience of figuring out what other people's code is up to!",
     tools: [
       "HTML5",
       "CSS3",
       "Wordpress",
       "PHP"
-    ]
+    ],
+    link: 'https://www.teamlivability.org/'
   }: {
     title,
     desription: "I built this API for a frontend site that needed data to be updated automatically, and after shopping around at different options I realized that including the webscraper in the frontend was just too heavy and not resource efficient. I decided to build the api so that I could separate out my front and backend concerns, and I expect to use this individual api for more databases in the future. At the moment, the frontend is not pretty but I expect to add something there soon.",

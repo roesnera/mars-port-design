@@ -16,6 +16,7 @@ export default function Projects() {
     <h2 className='projects-heading'>Projects</h2>
     <div className="tabs">
       <Project title="mars"/>
+      <Project title="Livability Initiative"/>
       <Project title="InDev"/>
       <Project title="Adam's api"/>
     </div>
