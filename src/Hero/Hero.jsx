@@ -29,7 +29,7 @@ export default function Hero({ toggle }) {
         <div className="linkedin-img"></div>
       </a>
     </div>
-    <p className="blurb">My name is Adam Roesner, I am a Full Stack Web Developer based in New York City and a web development teacher. I am passionate about building cool things that make people happy and learning all there is to know about my field. Let's build something together!</p>
+    <p className="blurb">My name is Adam Roesner, I am a Full Stack Web Developer based in Richmond, VA who is passionate about building cool things that make people happy and learning all there is to know about my field. Let's build something together!</p>
     <div className="dot dot-1"></div>
     <div className="dot dot-2"></div>
     <Tech/>
